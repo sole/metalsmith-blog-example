@@ -7,12 +7,14 @@
     "build": "node index.js",
     "watch": "npm run start & nodemon index.js --watch index.js --watch src --watch layouts -e html,md,js",
     "start": "http-server ./build",
+	"publish": "gh-pages -d build -b gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sole",
   "license": "ISC",
   "dependencies": {
     "@sole/metalsmith-feed-decaf": "git+https://github.com/sole/metalsmith-feed-decaf.git",
+    "gh-pages": "^0.11.0",
     "handlebars": "^4.0.5",
     "http-server": "^0.9.0",
     "metalsmith": "^2.2.2",
