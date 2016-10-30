@@ -17,12 +17,6 @@ var metadata = {
 	}
 };
 
-function chivato(files, metalsmith, done) {
-	console.log(files);
-	done();
-}
-
-
 
 Metalsmith(__dirname)
 	.metadata(metadata)
@@ -42,7 +36,6 @@ Metalsmith(__dirname)
 	}))
 	.use(permalinks({ relative: false }))
 	.use(metalPaths())
-	.use(chivato)
 	.use(feed({
 		collection: 'posts',
 		destination: 'feed/posts.xml',

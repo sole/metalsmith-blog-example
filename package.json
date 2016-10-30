@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node index.js",
-    "watch": "npm run start & nodemon index.js --watch index.js --watch src --watch layouts -e html,md,js",
+    "watch": "npm run start & nodemon index.js --watch index.js --watch src --watch layouts -e html,md,js,css",
     "start": "http-server ./build",
 	"publish": "gh-pages -d build -b gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
