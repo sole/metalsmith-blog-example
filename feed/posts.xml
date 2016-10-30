@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Metalsmith blog example]]></title>
+        <description><![CDATA[Metalsmith blog example]]></description>
+        <link>https://example.com</link>
+        <generator>Metalsmith blog example</generator>
+        <lastBuildDate>Sun, 30 Oct 2016 19:47:25 GMT</lastBuildDate>
+        <atom:link href="https://example.com/feed/posts.xml" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[Author name]]></author>
+        <item>
+            <title><![CDATA[New century, and a book]]></title>
+            <description><![CDATA[<p>A new century. Also the title of Arthur C. Clarke&#39;s book. And Stanley Kubrick&#39;s movie. Tons of stuff.</p>
+]]></description>
+            <link>https://example.com/posts/2001/index.html</link>
+            <guid isPermaLink="true">https://example.com/posts/2001/index.html</guid>
+            <dc:creator><![CDATA[Author name]]></dc:creator>
+            <pubDate>Mon, 01 Jan 2001 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Year 2000 date bugs]]></title>
+            <description><![CDATA[<p>The world didn&#39;t finish today.</p>
+]]></description>
+            <link>https://example.com/posts/y2k-bugs/index.html</link>
+            <guid isPermaLink="true">https://example.com/posts/y2k-bugs/index.html</guid>
+            <dc:creator><![CDATA[Author name]]></dc:creator>
+            <pubDate>Sun, 02 Jan 2000 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Clearing misconceptions about 2000]]></title>
+            <description><![CDATA[<p>Contrary to what many people believe in, this is not the year that the 21st century started on.</p>
+]]></description>
+            <link>https://example.com/posts/2000/index.html</link>
+            <guid isPermaLink="true">https://example.com/posts/2000/index.html</guid>
+            <dc:creator><![CDATA[Author name]]></dc:creator>
+            <pubDate>Sat, 01 Jan 2000 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hello World]]></title>
+            <description><![CDATA[<p>This is the very beginning, it seems</p>
+]]></description>
+            <link>https://example.com/posts/hello-world/index.html</link>
+            <guid isPermaLink="true">https://example.com/posts/hello-world/index.html</guid>
+            <dc:creator><![CDATA[Author name]]></dc:creator>
+            <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
